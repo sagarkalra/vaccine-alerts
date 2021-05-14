@@ -1,0 +1,17 @@
+{
+  "name": "vaccine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sagar Kalra",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "dotenv": "^9.0.2",
+    "request-promise": "^4.2.6"
+  }
+}
