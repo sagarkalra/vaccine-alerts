@@ -41,7 +41,7 @@ rp(options)
 .then(function(resp) {
   // console.log(resp)
   const isSlotAvailable = findSlots(resp.centers)
-  console.log(isSlotAvailable)
+  console.log(dateFormat(now, "dd-mm-yyyy HH:MM"), isSlotAvailable)
   if(isSlotAvailable) {
     informPeople(pincode, phones)
   }
