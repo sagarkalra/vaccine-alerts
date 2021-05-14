@@ -69,7 +69,7 @@ const findSlots = (centers) => {
 }
 
 const informPeople = (pincode, mobile) => {
-  let body = {"text": "Slots available foor pincode "+ pincode +". Book Now!!!"}
+  let body = {"text": "Slots available for pincode "+ pincode +". Book Now!!!"}
   const options = {
     uri: process.env.SLACK_URL,
     method: "POST",
