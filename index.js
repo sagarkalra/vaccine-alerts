@@ -58,7 +58,7 @@ const findSlots = (centers) => {
     const sessions = centers[i].sessions 
     for(let j=0;j<sessions.length;j++) {
       if(sessions[j].min_age_limit != 18) continue
-      if(sessions.available_capacity > 0) {
+      if(sessions[j].available_capacity > 0) {
         found = true
         break
       }
