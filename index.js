@@ -84,8 +84,8 @@ const informPeople = (pincode, mobile) => {
     console.log(resp)
   })
   .catch(err => {
-    console.log(err.response)
-    logError(err.response)
+    console.log(err.response.body)
+    logError(err.response.body)
   })
 }
 
@@ -105,6 +105,6 @@ const logError = (err) => {
     console.log(resp)
   })
   .catch(err => {
-    console.log(err.response)
+    console.log(err.response.body)
   })
 }
